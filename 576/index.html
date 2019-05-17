@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Syllabus</title>
+
+<style>
+	body{
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em;
+		font:1.2em/1.62 sans-serif;
+	}
+	h1,h2,h3 {
+		line-height:1.2;
+	}
+	@media print{
+		body{
+			max-width:none
+		}
+	}
+	.venue { font-style: italic; }
+	.note { font-style: italic; font-size: x-small; }
+</style>
+
+<article>
+
+	<h1>IDS 576 Advanced Predictive Models and Applications for Business Analytics</h1>
+<h3>Edition: Spring 2018</h3>
+<p>Document version: Apr 26 2018</p>
+<h2>Overview</h2>
+<p>The goal of this class is to cover advanced machine learning techniques not covered in IDS 572 and IDS 575. Broadly, we will cover topics spanning graphical models and deep learning. Graphical models are a set of very useful techniques for inferring outcomes and making predictions conditional on preceding events, even when we do not have full information. They have found success in tracking, speech recognition, language modeling (Hidden Markov Models), image segmentation (Markov Random Fields) and many other applications. Similarly, we will study the basics of deep learning architectures, their design choices and how they are trained using gradient methods. We will also study recurrent and convolutional architectures which achieve state of the art in challenging prediction tasks in computer vision and text applications. Time permitting, we will also look at online and reinforcement learning problems.</p>
+<h2>Logistics</h2>
+<ul>
+<li>Lectures: Wednesdays 6.00 PM to 8.30 PM at Douglas Hall 220</li>
+<li>Optional Recitations: <em>Select</em> Wednesdays 5.00 PM - 5.50 PM at F004-2LCF (Check Slack)</li>
+<li>Staff<ul>
+<li>Instructor: <a href="http://theja.org">Dr. Theja Tulabandhula</a> </li>
+<li>Teaching Assistant: <a href="http://business.uic.edu/faculty/mehrnaz-amjadi">Mehrnaz Amjadi</a>  </li>
+</ul>
+</li>
+<li>Online communication: <a href="https://ids576spring2018.slack.com/">Slack</a></li>
+<li>Offline communication:<ul>
+<li>Instructor Office Hours: Wednesdays 8.30 PM - 9.30 PM (DH220/UH2404) or schedule by Slack</li>
+<li>TA Office Hours: Tuesdays 2.30 PM - 4.00 PM (UH2401) or schedule by Slack</li>
+</ul>
+</li>
+</ul>
+<h2>Textbook and Materials</h2>
+<ul>
+<li>There is no official textbook for this course. Several references will be provided within each lecture. For additional reading please refer to these textbooks:<ul>
+<li><a href="http://www.deeplearningbook.org/">Deep Learning</a> by Ian Goodfellow and Yoshua Bengio and Aaron Courville (2016).</li>
+<li><a href="http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online">Bayesian Reasoning and Machine Learning</a> by David Barber (2012).</li>
+<li><a href="http://incompleteideas.net/book/the-book-2nd.html">Reinforcement Learning: An Introduction</a> by Richard S. Sutton
+and Andrew G. Barto (2018).</li>
+</ul>
+</li>
+<li>Materials (lecture notes, assignments and project details) will be posted on <a href="https://uic.blackboard.com/">Blackboard</a>.</li>
+</ul>
+<h2>Software</h2>
+<ul>
+<li><a href="https://www.python.org/">Python</a> and <a href="http://jupyter.org/">Jupyter</a> notebooks will be used. Refer to <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/">this set of notes</a> or <a href="http://stanfordpython.com/">this</a> to get started in Python.</li>
+</ul>
+<h2>Timeline</h2>
+<h4>Lectures (<em>tentative</em>)</h4>
+<ol>
+<li>01/17 : Motivating Applications, Machine Learning Pipeline (Data, Models, Loss, Optimization), Backpropagation</li>
+<li>01/24 : Feedforward Networks: Nonlinearities, Convolutional Neural Networks: Convolution, Pooling</li>
+<li>01/31 : Jumpstarting Convolutional Neural Networks: Visualization, Transfer, Practical Models (VGG, AlexNet) <a href="https://www.youtube.com/watch?v=SsifcKXuL78&amp;t=0s&amp;index=2&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>02/07 : Text and Embeddings: Introduction to NLP, Word Embeddings, Word2Vec <a href="https://www.youtube.com/watch?v=eR5lzMdlink&amp;t=0s&amp;index=3&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>02/14 : Recurrent Neural Networks: Sequence to Sequence Learning, RNNs and LSTMs <a href="https://www.youtube.com/watch?v=q_VuXRc4Yx0&amp;t=0s&amp;index=4&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>02/21 : Unsupervised Deep Learning: Generative Adversarial Networks, Variational Autoencoders <a href="https://www.youtube.com/watch?v=hBBqCIlAUyA&amp;t=0s&amp;index=5&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>02/28 : Review of Deep Learning and Recent Advances <a href="https://www.youtube.com/watch?v=frryyXHCwgo&amp;t=0s&amp;index=6&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>03/14 : Graphical Models: Representation: Directed and Undirected Graphical Models, Conditional Independence, D-separation, Local Markov Property <a href="https://www.youtube.com/watch?v=yNGXOQntpR4&amp;t=0s&amp;index=7&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>03/21 : Graphical Models: Inference: Variable Elimination, Belief Propagation, Markov Chain Monte Carlo <a href="https://www.youtube.com/watch?v=lxcthgnFcKQ&amp;t=0s&amp;index=8&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>04/04 : Graphical Models: Learning: Maximum Likelihood Estimation, Expectation Maximization <a href="https://www.youtube.com/watch?v=fF_44gsixKY&amp;t=0s&amp;index=9&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>04/11 : Online Learning: A/B Testing, Multi-armed Bandits, Contextual Bandits <a href="https://www.youtube.com/watch?v=NSv-7pGVmfI&amp;t=0s&amp;index=10&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>04/18 : Reinforcement Learning: Policies, State-Action Value Functions, Q-Learning <a href="https://www.youtube.com/watch?v=6_XYLJKUPX0&amp;t=0s&amp;index=11&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>04/25 : Deep Reinforcement Learning: Function Approximation, DQN for Atari Games, AlphaGo Zero <a href="https://www.youtube.com/watch?v=mC1OhBUDlo8&amp;t=0s&amp;index=12&amp;list=PLzq3B7Hh4uvbuhr2b-L2jrL8rnPJMBUIT">(video)</a></li>
+<li>05/02 : Project Presentations</li>
+</ol>
+<p><em>(A concatenated set of slides are available <a href="https://chicagodatascience.github.io/s18/576/slides576_spring18.pdf">here</a>)</em></p>
+<h4>Assignments</h4>
+<ol>
+<li>01/31: Assignment 1 (<em>lengthy!</em>) out. Due on 02/27</li>
+<li>02/28: Assignment 2 out. Due on 03/13</li>
+<li>03/21: Assignment 3 out. Due on 04/10 </li>
+<li>04/11: Assignment 4 out. Due on 04/24 </li>
+</ol>
+<h4>Exams</h4>
+<ol>
+<li>03/07: Exam I (same venue as lectures, and during class hours)</li>
+<li>05/09: Exam II (same venue as lectures, and during class hours)</li>
+</ol>
+<h4>Project</h4>
+<ol>
+<li>03/20: Project Report I due</li>
+<li>05/01: Project Report II due</li>
+</ol>
+<p><em>Note: Submission deadline for assignments and project reports is BEFORE 2359hrs on the concerned day. Use Blackboard for uploads.</em></p>
+<h2>Grades</h2>
+<ul>
+<li>Assignments (4): 10% + 5% + 5% + 5%</li>
+<li>Exams (2): 20% (Exam I) + 20% (Exam II)</li>
+<li>Project (2): 10% (Report I) + 25% (Report II)</li>
+</ul>
+<h2>Assignments</h2>
+<ul>
+<li>Always mention sources in your assignment solutions and project writeups. </li>
+<li>Late submissions will have an automatic 20% penalty per day.</li>
+</ul>
+<h2>Exams</h2>
+<ul>
+<li>These are closed book, but one 8.5x11-inch handwritten cheatsheet is allowed. </li>
+<li>No computers and communication devices are allowed.</li>
+</ul>
+<h2>Project</h2>
+<ul>
+<li>This involves working on and documenting a machine learning solution on a dataset of your choice (e.g., reimplementing and verifying the results of any research paper appearing in recent machine learning and data mining conferences). See details on Blackboard.</li>
+</ul>
+<h2>Miscellaneous Information</h2>
+<ul>
+<li>This is a 4 credit graduate level course with CRN 38063, offered by the Information and Decision Sciences department at UIC.</li>
+<li>The semester runs from Jan 16, 2018 - May 04, 2018 (<a href="http://catalog.uic.edu/ucat/academic-calendar/#2017-2018">academic calendar</a>).</li>
+<li>Students who wish to observe their religious holidays (http://oae.uic.edu/religious-calendar/) shoud notify the instructor by Jan 20. </li>
+<li>Please contact the instructor at the earliest, if you require accommodations for access to and/or participation in this course.</li>
+<li>Please refer to the academic integrity guidelines set by the university.</li>
+</ul>
+<h4>Back to the <a href="http://theja.org">instructor's homepage</a>.</h4>
+
+</article>
+
+<footer> 
+<small>If you see any errors on this web page, please send me an email at webmaster at theja dot org or <a href="https://github.com/thejat/thejat.github.io">a pull request on GitHub</a>.</small>
+</footer>
+
+	
